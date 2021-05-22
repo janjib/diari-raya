@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/diari-raya/static/css/main.af16b1ff.chunk.css",
+    "main.js": "/diari-raya/static/js/main.e87835ea.chunk.js",
+    "main.js.map": "/diari-raya/static/js/main.e87835ea.chunk.js.map",
+    "runtime-main.js": "/diari-raya/static/js/runtime-main.6a775204.js",
+    "runtime-main.js.map": "/diari-raya/static/js/runtime-main.6a775204.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/diari-raya/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.77041f9e.chunk.js": "/diari-raya/static/js/2.77041f9e.chunk.js",
+    "static/js/2.77041f9e.chunk.js.map": "/diari-raya/static/js/2.77041f9e.chunk.js.map",
+    "index.html": "/diari-raya/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/diari-raya/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.af16b1ff.chunk.css.map": "/diari-raya/static/css/main.af16b1ff.chunk.css.map",
+    "static/js/2.77041f9e.chunk.js.LICENSE.txt": "/diari-raya/static/js/2.77041f9e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a775204.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.77041f9e.chunk.js",
+    "static/css/main.af16b1ff.chunk.css",
+    "static/js/main.e87835ea.chunk.js"
+  ]
+}
