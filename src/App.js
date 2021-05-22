@@ -1,24 +1,43 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import NavigationBar from './Components/NavigationBar';
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
+import PostPage from './Components/PostPage';
+import WriteQuote from './Components/WriteQuote';
+import Homepage from './Components/Homepage';
+import {AppContextProvider} from './context/AppContext'
+import PrivateRoute from './Components/PrivateRoute'
+
+import AlbumPage from './Components/AlbumPage';
+import ViewAlbumPage from './Components/ViewAlbumPage';
+
 
 function App() {
   return (
+    <AppContextProvider>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+     <NavigationBar />
+    
+
+
+<Switch>
+
+<Route path='/'   exact component={Homepage}></Route> 
+<PrivateRoute exact path='/post-quote' component={PostPage} />
+<PrivateRoute exact path='/write-quote'   component={WriteQuote} /> 
+<PrivateRoute exact path='/album-page'   component={AlbumPage} /> 
+<PrivateRoute exact path='/view-album-page'   component={ViewAlbumPage} /> 
+
+
+
+
+</Switch>
+
+</Router>
+     
     </div>
+    </AppContextProvider>
   );
 }
 
