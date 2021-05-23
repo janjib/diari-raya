@@ -396,7 +396,7 @@ a {
     height: 4.5rem;
   }
   .sign-in-button {
-    width: 55%;
+    width: 75%;
   }
   .nav-info-text {
     display: flex;
@@ -414,6 +414,15 @@ a {
     max-height: 60vh;
     margin: 60px auto;
     box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  }
+  .modal-card{
+    max-width:80%;
+  }
+  .form-file-label{
+    width:8%;
+  }
+  .post-album-button{
+    min-width:25%;
   }
 }
 
@@ -442,5 +451,15 @@ a {
   }
   .sign-in-button {
     width: 35%;
+  }
+}
+
+/*Ipad*/
+@media only screen and (device-width:768px){
+  .post-preview{
+    min-height: 10vh;
+  }
+  .nav-info-text{
+    display: flex;
   }
 }
