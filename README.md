@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# DiariRaya
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+This web app is build using React.JS
 
-In the project directory, you can run:
+If you want the complete source code , go to the master branch
 
-### `npm start`
+This website will be competing for **KakiCode WebDev Competition**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### What you can do with DiariRaya :
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Post your Raya picture
+- Post your Ucapan Hari Raya
+- Your posts can be view by every user
 
-### `npm test`
+## Website preview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Click here to go to the website](https://react-raya.web.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Link : https://react-raya.web.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Open the website using web browser not popup**
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Introduction
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This website is a social media-like website that featuring Raya .
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Google Authorization
 
-## Learn More
+To use this website , you need to have Google account to sign in !
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![homepage picture with google auth](/readmeimages/homepage.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Album Page 
 
-### Code Splitting
+You can click at one of the pictures and a modal containing the picture you clicked and the caption of the picture will appeared .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![collection of uploaded photos](/readmeimages/albumpage.png)
 
-### Analyzing the Bundle Size
+![A modal will appear when you click the picture](/readmeimages/modalpic.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can post your own picture by clicking the add button at bottom right of the screen .
 
-### Making a Progressive Web App
+![You can upload your picture here !](/readmeimages/postphotopic.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Ucapan Hari Raya page
 
-### Advanced Configuration
+![collection of Ucapan Hari Raya](/readmeimages/ucapanpic.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+You can view Ucapan made by other user in this page.If you want to post your Ucapan,you can click the add button at bottom right of the screen .
 
-### Deployment
+![You can upload your ucapan here !](/readmeimages/postucapanpic.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# End
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**#GayaRayaCoding**
